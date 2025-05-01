@@ -1,0 +1,31 @@
+# Local Terraform state
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+
+# Terraform plan files
+*.tfplan
+
+# Sensitive override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI configuration
+.terraformrc
+terraform.rc
+
+# Terraform working directory
+.terraform/
+
+# Ignore any backup files
+*.bak
+*.backup
+
+# Ignore IDE/project-specific files (optional)
+.vscode/
+.idea/
+.DS_Store
